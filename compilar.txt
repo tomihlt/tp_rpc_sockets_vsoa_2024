@@ -1,0 +1,5 @@
+gcc -g -o serverInteract app_svc.c serverInteract.c app_xdr.c -I/usr/include/tirpc -lnsl -ltirpc
+gcc -g -o cliente app_clnt.c cliente.c app_xdr.c -I/usr/include/tirpc -lnsl -ltirpc
+
+scp * ubuntuadm@10.62.245.33:/home/ubuntuadm/TP2
+scp * ubuntuadm@10.62.245.195:/home/ubuntuadm/TP2
